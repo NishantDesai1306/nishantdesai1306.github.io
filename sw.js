@@ -6,7 +6,7 @@ if (workbox) {
 	workbox.precaching.precacheAndRoute([
   {
     "url": "asset-manifest.json",
-    "revision": "f71aee637ccfb400c768e285b19e65a7"
+    "revision": "af748a84343d4fd80a2afa93596284b2"
   },
   {
     "url": "favicon.ico",
@@ -50,7 +50,7 @@ if (workbox) {
   },
   {
     "url": "index.html",
-    "revision": "8a13f1c35c3daed02482ce6ceeb236da"
+    "revision": "8cba151712a639273b23ebdf7e897d0e"
   },
   {
     "url": "manifest.json",
@@ -61,24 +61,24 @@ if (workbox) {
     "revision": "b7d4bc9c12586dc142bef4af481ddf4b"
   },
   {
-    "url": "precache-manifest.10e69c2eb64f6c12e7f640872b1bec37.js",
-    "revision": "10e69c2eb64f6c12e7f640872b1bec37"
+    "url": "precache-manifest.011e12f11d7f3eb0e795b76c0ca0e356.js",
+    "revision": "011e12f11d7f3eb0e795b76c0ca0e356"
   },
   {
     "url": "service-worker.js",
-    "revision": "6299d45ab14b795f2da78a149e9d2388"
+    "revision": "bf79c486430f3902166b6bfc5e73bc5e"
   },
   {
     "url": "static/css/2.079854c7.chunk.css",
     "revision": "2d87633e12f615262cd701674975f5b1"
   },
   {
-    "url": "static/js/2.28acefab.chunk.js",
-    "revision": "dada377b8ce0e79290914fb4d28a726f"
+    "url": "static/js/2.ef1eb5fe.chunk.js",
+    "revision": "5715457a79e2bd540ecdd78d0c42a382"
   },
   {
-    "url": "static/js/main.a74f8394.chunk.js",
-    "revision": "53ace9dcc590b0efcbe6ef263f47d0f9"
+    "url": "static/js/main.f143fbc5.chunk.js",
+    "revision": "a82eedf174acb2f896e52941f872875b"
   },
   {
     "url": "static/js/runtime-main.14b154d7.js",
@@ -130,7 +130,25 @@ if (workbox) {
 	console.log(`Boo! Workbox didn't load 😬`);
 }
 
-const staticCacheName = 'pages-cache-v1';
+const cachesToRemove = [
+	/pages-cache/,
+	// /workbox-precache/, // enable when I want to remove old image from cache
+]
+const staticCacheName = 'pages-cache-v2';
+
+self.addEventListener('activate', function (event) {
+	event.waitUntil(
+		caches.keys().then(function (cacheNames) {
+			return Promise.all(
+				cacheNames.filter(function (cacheName) {
+					return cachesToRemove.some((cacheNameRegex) => cacheNameRegex.test(cacheName))
+				}).map(function (cacheName) {
+					return caches.delete(cacheName);
+				})
+			);
+		})
+	);
+});
 
 self.addEventListener('install', (event) => {
 	const urls = [
