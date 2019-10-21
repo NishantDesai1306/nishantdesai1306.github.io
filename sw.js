@@ -6,7 +6,7 @@ if (workbox) {
 	workbox.precaching.precacheAndRoute([
   {
     "url": "asset-manifest.json",
-    "revision": "af748a84343d4fd80a2afa93596284b2"
+    "revision": "44cbb9efd3d0b3790f49129d717e1df8"
   },
   {
     "url": "favicon.ico",
@@ -50,7 +50,7 @@ if (workbox) {
   },
   {
     "url": "index.html",
-    "revision": "8cba151712a639273b23ebdf7e897d0e"
+    "revision": "c7f2932e42250e16f1906d7a42cc6270"
   },
   {
     "url": "manifest.json",
@@ -61,12 +61,12 @@ if (workbox) {
     "revision": "b7d4bc9c12586dc142bef4af481ddf4b"
   },
   {
-    "url": "precache-manifest.011e12f11d7f3eb0e795b76c0ca0e356.js",
-    "revision": "011e12f11d7f3eb0e795b76c0ca0e356"
+    "url": "precache-manifest.f2fe014ac2a1e9efc7ba75a1cd434e04.js",
+    "revision": "f2fe014ac2a1e9efc7ba75a1cd434e04"
   },
   {
     "url": "service-worker.js",
-    "revision": "bf79c486430f3902166b6bfc5e73bc5e"
+    "revision": "1643cd93dc48b255ffa0e6851a78e9a3"
   },
   {
     "url": "static/css/2.079854c7.chunk.css",
@@ -77,24 +77,24 @@ if (workbox) {
     "revision": "5715457a79e2bd540ecdd78d0c42a382"
   },
   {
-    "url": "static/js/main.f143fbc5.chunk.js",
-    "revision": "a82eedf174acb2f896e52941f872875b"
+    "url": "static/js/main.f985ca45.chunk.js",
+    "revision": "791cc37acb26c9f09ca5d1caae974b11"
   },
   {
     "url": "static/js/runtime-main.14b154d7.js",
     "revision": "2f710e76f9091fbbfbe054e8d2522a1f"
   },
   {
-    "url": "static/media/facebook.2480ae73.svg",
-    "revision": "2480ae73ad8985a192a4fd1c132e60ec"
+    "url": "static/media/facebook.8ddf98ef.svg",
+    "revision": "8ddf98efb58ff9f07272ae5b87fbf649"
   },
   {
-    "url": "static/media/github.ba679906.svg",
-    "revision": "ba679906e271d70b0c6c0f2460e8d2e5"
+    "url": "static/media/github.3ba30a77.svg",
+    "revision": "3ba30a775b6c5f1e785a226ec76bd79a"
   },
   {
-    "url": "static/media/linkedin.80819046.svg",
-    "revision": "80819046a463448a7d16a06f7cd5b39b"
+    "url": "static/media/linkedin.e38fbff1.svg",
+    "revision": "e38fbff117f540e82c006e8b4c1d1521"
   },
   {
     "url": "static/media/lost_box.6e4c0ee4.png",
@@ -113,8 +113,8 @@ if (workbox) {
     "revision": "f08134710f5a21af7ec146adfc1b84cb"
   },
   {
-    "url": "static/media/upwork.2cc99461.svg",
-    "revision": "2cc9946167d04417edbb426da2c953a6"
+    "url": "static/media/upwork.3bbafc95.svg",
+    "revision": "3bbafc951d10111231379d372adc1272"
   }
 ]);
 
