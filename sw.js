@@ -6,11 +6,11 @@ if (workbox) {
 	workbox.precaching.precacheAndRoute([
   {
     "url": "asset-manifest.json",
-    "revision": "1ef45c53cff3381509374aeb703d7ea3"
+    "revision": "38a14e6e371746a99afb349df0fd7e6e"
   },
   {
     "url": "favicon.ico",
-    "revision": "c92b85a5b907c70211f4ec25e29a8c4a"
+    "revision": "ad6e685001b0bcfc0ebdf4e0fba548fd"
   },
   {
     "url": "images/icons/icon-128x128.png",
@@ -50,7 +50,7 @@ if (workbox) {
   },
   {
     "url": "index.html",
-    "revision": "8b64023a1d43d5acd9e926b30bcaefbc"
+    "revision": "3b42e48d70bd1019f6abda7aada42517"
   },
   {
     "url": "manifest.json",
@@ -61,24 +61,24 @@ if (workbox) {
     "revision": "b7d4bc9c12586dc142bef4af481ddf4b"
   },
   {
-    "url": "precache-manifest.39e4fce2969c61ed14c7cf2854f876fa.js",
-    "revision": "39e4fce2969c61ed14c7cf2854f876fa"
+    "url": "precache-manifest.b89ad76d943eddc1a91a49e8362216cf.js",
+    "revision": "b89ad76d943eddc1a91a49e8362216cf"
   },
   {
     "url": "service-worker.js",
-    "revision": "57f28db3222a26718f287e12860fa3cf"
+    "revision": "e0ed350d1e58d9d37d0be76daf64460f"
   },
   {
     "url": "static/css/2.079854c7.chunk.css",
     "revision": "2d87633e12f615262cd701674975f5b1"
   },
   {
-    "url": "static/js/2.a5550584.chunk.js",
-    "revision": "c2b801b73db5f436d71404dbaf9925db"
+    "url": "static/js/2.97711c7d.chunk.js",
+    "revision": "7cc4a60ac0138bb832fd5ebfe530ec47"
   },
   {
-    "url": "static/js/main.1ddbd6c2.chunk.js",
-    "revision": "fc6d6d989086a30549b6f3201a00337a"
+    "url": "static/js/main.8bb0f370.chunk.js",
+    "revision": "ab86a88f00b8b43e686cc9e1036d04c9"
   },
   {
     "url": "static/js/runtime-main.14b154d7.js",
@@ -97,16 +97,20 @@ if (workbox) {
     "revision": "80819046a463448a7d16a06f7cd5b39b"
   },
   {
-    "url": "static/media/owner.15261581.jpg",
-    "revision": "1526158138b5763ada56b840645ae430"
+    "url": "static/media/lost_box.6e4c0ee4.png",
+    "revision": "6e4c0ee4e86db377f9f5c07d5dedd54a"
   },
   {
-    "url": "static/media/pdp_vs_ts.46f4b312.png",
-    "revision": "46f4b31261b4c4aa894b7e53f49c5f23"
+    "url": "static/media/owner.95ffe127.png",
+    "revision": "95ffe127d9f7ac123cb0d3e9816aba6b"
   },
   {
-    "url": "static/media/smart-copy.b4b9b233.png",
-    "revision": "b4b9b23396266a32aec1a257a72babbf"
+    "url": "static/media/pdp_vs_ts.554e1164.png",
+    "revision": "554e11644eff7919702a70948bfd3e04"
+  },
+  {
+    "url": "static/media/smart-copy.f0813471.png",
+    "revision": "f08134710f5a21af7ec146adfc1b84cb"
   },
   {
     "url": "static/media/upwork.2cc99461.svg",
