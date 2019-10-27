@@ -1,12 +1,12 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js');
 
 if (workbox) {
-	console.log(`Yay! Workbox is loaded 🎉`);
+	console.log(`Yay! Workbox is loaded`);
 
 	workbox.precaching.precacheAndRoute([
   {
     "url": "asset-manifest.json",
-    "revision": "44cbb9efd3d0b3790f49129d717e1df8"
+    "revision": "ef26c3100cf39fcd566bbe2062895998"
   },
   {
     "url": "favicon.ico",
@@ -50,7 +50,7 @@ if (workbox) {
   },
   {
     "url": "index.html",
-    "revision": "c7f2932e42250e16f1906d7a42cc6270"
+    "revision": "988afc6e0a65f3171dd86e77e7ab9580"
   },
   {
     "url": "manifest.json",
@@ -61,24 +61,24 @@ if (workbox) {
     "revision": "b7d4bc9c12586dc142bef4af481ddf4b"
   },
   {
-    "url": "precache-manifest.f2fe014ac2a1e9efc7ba75a1cd434e04.js",
-    "revision": "f2fe014ac2a1e9efc7ba75a1cd434e04"
+    "url": "precache-manifest.cc5777ebfe4ff9ec31783dcf8372c2b8.js",
+    "revision": "cc5777ebfe4ff9ec31783dcf8372c2b8"
   },
   {
     "url": "service-worker.js",
-    "revision": "1643cd93dc48b255ffa0e6851a78e9a3"
+    "revision": "5e4f3181809a28c2e9785cc891c12fe0"
   },
   {
     "url": "static/css/2.079854c7.chunk.css",
     "revision": "2d87633e12f615262cd701674975f5b1"
   },
   {
-    "url": "static/js/2.ef1eb5fe.chunk.js",
-    "revision": "5715457a79e2bd540ecdd78d0c42a382"
+    "url": "static/js/2.555d7798.chunk.js",
+    "revision": "a87853755c3e5f7b21d87357ab8d3d01"
   },
   {
-    "url": "static/js/main.f985ca45.chunk.js",
-    "revision": "791cc37acb26c9f09ca5d1caae974b11"
+    "url": "static/js/main.2148fbee.chunk.js",
+    "revision": "41c885fb1bda870978edc12dcc5c0416"
   },
   {
     "url": "static/js/runtime-main.14b154d7.js",
@@ -127,7 +127,7 @@ if (workbox) {
 		}
 	});
 } else {
-	console.log(`Boo! Workbox didn't load 😬`);
+	console.log(`Boo! Workbox didn't load`);
 }
 
 const cachesToRemove = [
