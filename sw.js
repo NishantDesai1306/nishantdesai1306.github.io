@@ -5,10 +5,6 @@ if (workbox) {
 
 	workbox.precaching.precacheAndRoute([
   {
-    "url": "asset-manifest.json",
-    "revision": "ef26c3100cf39fcd566bbe2062895998"
-  },
-  {
     "url": "favicon.ico",
     "revision": "ad6e685001b0bcfc0ebdf4e0fba548fd"
   },
@@ -50,7 +46,7 @@ if (workbox) {
   },
   {
     "url": "index.html",
-    "revision": "988afc6e0a65f3171dd86e77e7ab9580"
+    "revision": "7ed30339492eae40d25b3790f75002dd"
   },
   {
     "url": "manifest.json",
@@ -59,62 +55,6 @@ if (workbox) {
   {
     "url": "offline.html",
     "revision": "b7d4bc9c12586dc142bef4af481ddf4b"
-  },
-  {
-    "url": "precache-manifest.cc5777ebfe4ff9ec31783dcf8372c2b8.js",
-    "revision": "cc5777ebfe4ff9ec31783dcf8372c2b8"
-  },
-  {
-    "url": "service-worker.js",
-    "revision": "5e4f3181809a28c2e9785cc891c12fe0"
-  },
-  {
-    "url": "static/css/2.079854c7.chunk.css",
-    "revision": "2d87633e12f615262cd701674975f5b1"
-  },
-  {
-    "url": "static/js/2.555d7798.chunk.js",
-    "revision": "a87853755c3e5f7b21d87357ab8d3d01"
-  },
-  {
-    "url": "static/js/main.2148fbee.chunk.js",
-    "revision": "41c885fb1bda870978edc12dcc5c0416"
-  },
-  {
-    "url": "static/js/runtime-main.14b154d7.js",
-    "revision": "2f710e76f9091fbbfbe054e8d2522a1f"
-  },
-  {
-    "url": "static/media/facebook.8ddf98ef.svg",
-    "revision": "8ddf98efb58ff9f07272ae5b87fbf649"
-  },
-  {
-    "url": "static/media/github.3ba30a77.svg",
-    "revision": "3ba30a775b6c5f1e785a226ec76bd79a"
-  },
-  {
-    "url": "static/media/linkedin.e38fbff1.svg",
-    "revision": "e38fbff117f540e82c006e8b4c1d1521"
-  },
-  {
-    "url": "static/media/lost_box.6e4c0ee4.png",
-    "revision": "6e4c0ee4e86db377f9f5c07d5dedd54a"
-  },
-  {
-    "url": "static/media/owner.95ffe127.png",
-    "revision": "95ffe127d9f7ac123cb0d3e9816aba6b"
-  },
-  {
-    "url": "static/media/pdp_vs_ts.554e1164.png",
-    "revision": "554e11644eff7919702a70948bfd3e04"
-  },
-  {
-    "url": "static/media/smart-copy.f0813471.png",
-    "revision": "f08134710f5a21af7ec146adfc1b84cb"
-  },
-  {
-    "url": "static/media/upwork.3bbafc95.svg",
-    "revision": "3bbafc951d10111231379d372adc1272"
   }
 ]);
 
