@@ -42,7 +42,7 @@ if (workbox) {
   },
   {
     "url": "index.css",
-    "revision": "aa2f2f0de2f29d2b86f9ae9a931c23d3"
+    "revision": "6f1be41ef96091aedad750a604dd4559"
   },
   {
     "url": "index.html",
@@ -67,7 +67,7 @@ if (workbox) {
 		}
 	});
 } else {
-	console.log(`Boo! Workbox didn't load`);
+	console.log(`Boo! Workbox didn't load`)
 }
 
 const cachesToRemove = [
