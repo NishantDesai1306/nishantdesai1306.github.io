@@ -74,7 +74,7 @@ const cachesToRemove = [
 	/pages-cache/,
 	// /workbox-precache/, // enable when I want to remove old image from cache
 ]
-const staticCacheName = 'pages-cache-v2';
+const staticCacheName = 'pages-cache-v3';
 
 self.addEventListener('activate', function (event) {
 	event.waitUntil(
