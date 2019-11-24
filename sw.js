@@ -50,7 +50,7 @@ if (workbox) {
   },
   {
     "url": "manifest.json",
-    "revision": "61e4673adb4a3a0587f52b3dff125dc6"
+    "revision": "cd2a10022206349f51fc76b28c95196d"
   },
   {
     "url": "offline.html",
@@ -67,7 +67,7 @@ if (workbox) {
 		}
 	});
 } else {
-	console.log(`Boo! Workbox didn't load`)
+	console.log(`Boo! Workbox didn't load`);
 }
 
 const cachesToRemove = [
