@@ -42,15 +42,15 @@ if (workbox) {
   },
   {
     "url": "index.css",
-    "revision": "6f1be41ef96091aedad750a604dd4559"
+    "revision": "776feda6f336f8bfe13f18d3d5db2ea8"
   },
   {
     "url": "index.html",
-    "revision": "7ed30339492eae40d25b3790f75002dd"
+    "revision": "aa8c7a6e6e55e6f736a33316b966eac5"
   },
   {
     "url": "manifest.json",
-    "revision": "cd2a10022206349f51fc76b28c95196d"
+    "revision": "aa7d9de251a5287385737b13366cf30d"
   },
   {
     "url": "offline.html",
@@ -67,14 +67,14 @@ if (workbox) {
 		}
 	});
 } else {
-	console.log(`Boo! Workbox didn't load`);
+	console.log(`Boo! Workbox didn't load`)
 }
 
 const cachesToRemove = [
 	/pages-cache/,
 	// /workbox-precache/, // enable when I want to remove old image from cache
 ]
-const staticCacheName = 'pages-cache-v3';
+const staticCacheName = 'pages-cache-v4';
 
 self.addEventListener('activate', function (event) {
 	event.waitUntil(
