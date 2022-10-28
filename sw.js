@@ -3,60 +3,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox
 if (workbox) {
 	console.log(`Yay! Workbox is loaded`);
 
-	workbox.precaching.precacheAndRoute([
-  {
-    "url": "favicon.ico",
-    "revision": "ad6e685001b0bcfc0ebdf4e0fba548fd"
-  },
-  {
-    "url": "images/icons/icon-128x128.png",
-    "revision": "199359b366eeaaa22dbf98c38ca883fc"
-  },
-  {
-    "url": "images/icons/icon-144x144.png",
-    "revision": "69a7b59454920159386b279559c8431e"
-  },
-  {
-    "url": "images/icons/icon-152x152.png",
-    "revision": "775bd1de1e52d786672f619d76b04eea"
-  },
-  {
-    "url": "images/icons/icon-192x192.png",
-    "revision": "36ed9f4930524958cb3dc3a217f02775"
-  },
-  {
-    "url": "images/icons/icon-384x384.png",
-    "revision": "3908d41515d8e8f388b1ab080f788410"
-  },
-  {
-    "url": "images/icons/icon-512x512.png",
-    "revision": "95ffe127d9f7ac123cb0d3e9816aba6b"
-  },
-  {
-    "url": "images/icons/icon-72x72.png",
-    "revision": "40f75e3121c7146d08555e0b66ab8305"
-  },
-  {
-    "url": "images/icons/icon-96x96.png",
-    "revision": "5378ae9aa9b4fa19a67f84505cb3bd06"
-  },
-  {
-    "url": "index.css",
-    "revision": "776feda6f336f8bfe13f18d3d5db2ea8"
-  },
-  {
-    "url": "index.html",
-    "revision": "aa8c7a6e6e55e6f736a33316b966eac5"
-  },
-  {
-    "url": "manifest.json",
-    "revision": "aa7d9de251a5287385737b13366cf30d"
-  },
-  {
-    "url": "offline.html",
-    "revision": "b7d4bc9c12586dc142bef4af481ddf4b"
-  }
-]);
+	workbox.precaching.precacheAndRoute([[{"revision":"ad6e685001b0bcfc0ebdf4e0fba548fd","url":"favicon.ico"},{"revision":"199359b366eeaaa22dbf98c38ca883fc","url":"images/icons/icon-128x128.png"},{"revision":"69a7b59454920159386b279559c8431e","url":"images/icons/icon-144x144.png"},{"revision":"775bd1de1e52d786672f619d76b04eea","url":"images/icons/icon-152x152.png"},{"revision":"36ed9f4930524958cb3dc3a217f02775","url":"images/icons/icon-192x192.png"},{"revision":"3908d41515d8e8f388b1ab080f788410","url":"images/icons/icon-384x384.png"},{"revision":"95ffe127d9f7ac123cb0d3e9816aba6b","url":"images/icons/icon-512x512.png"},{"revision":"40f75e3121c7146d08555e0b66ab8305","url":"images/icons/icon-72x72.png"},{"revision":"5378ae9aa9b4fa19a67f84505cb3bd06","url":"images/icons/icon-96x96.png"},{"revision":"032871f715749fb04492978c33a5f2fd","url":"index.css"},{"revision":"dd3d0fd721e2b244242d2a443830bd1b","url":"index.html"},{"revision":"cd2a10022206349f51fc76b28c95196d","url":"manifest.json"},{"revision":"70180f893c3ad0d78883783c851ba27c","url":"offline.html"}]]);
 
 	workbox.routing.setCatchHandler(({ event }) => {
 
@@ -72,7 +19,7 @@ if (workbox) {
 
 const cachesToRemove = [
 	/pages-cache/,
-	// /workbox-precache/, // enable when I want to remove old image from cache
+	/workbox-precache/, // enable when I want to remove old image from cache
 ]
 const staticCacheName = 'pages-cache-v4';
 
