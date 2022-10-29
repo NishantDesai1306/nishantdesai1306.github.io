@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c12590a8.css",
-    "main.js": "/static/js/main.11121f0d.js",
+    "main.js": "/static/js/main.cadd0358.js",
     "static/media/owner.png": "/static/media/owner.1b33bcb62b0141f84909.png",
     "service-worker.js": "/service-worker.js",
     "static/media/lost_box.png": "/static/media/lost_box.bcf12806f562b6d0c511.png",
@@ -13,10 +13,10 @@
     "upwork.svg": "/f125ff97903d9bfb0475046286f33c23.svg",
     "facebook.svg": "/78dee8c415284bb92468f44c9af95a6e.svg",
     "main.c12590a8.css.map": "/static/css/main.c12590a8.css.map",
-    "main.11121f0d.js.map": "/static/js/main.11121f0d.js.map"
+    "main.cadd0358.js.map": "/static/js/main.cadd0358.js.map"
   },
   "entrypoints": [
     "static/css/main.c12590a8.css",
-    "static/js/main.11121f0d.js"
+    "static/js/main.cadd0358.js"
   ]
 }
