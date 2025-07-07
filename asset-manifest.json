@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.c12590a8.css",
-    "main.js": "/static/js/main.fdc8aca1.js",
+    "main.js": "/static/js/main.e7dd772c.js",
+    "static/media/owner.png": "/static/media/owner.92f9eb67dca00d8a3857.png",
     "static/media/chess.jpg": "/static/media/chess.b1b5057e12976c8a88e8.jpg",
-    "static/media/owner.png": "/static/media/owner.1b33bcb62b0141f84909.png",
     "service-worker.js": "/service-worker.js",
-    "static/media/lost_box.png": "/static/media/lost_box.bcf12806f562b6d0c511.png",
     "static/media/smart-copy.png": "/static/media/smart-copy.c7585b4a2467fda9faf3.png",
     "static/media/flutter.png": "/static/media/flutter.279beca7209eb401dea9.png",
     "github.svg": "/8483f8d1da7e3322cb2813cd7e0d936c.svg",
@@ -14,10 +13,10 @@
     "upwork.svg": "/f125ff97903d9bfb0475046286f33c23.svg",
     "facebook.svg": "/78dee8c415284bb92468f44c9af95a6e.svg",
     "main.c12590a8.css.map": "/static/css/main.c12590a8.css.map",
-    "main.fdc8aca1.js.map": "/static/js/main.fdc8aca1.js.map"
+    "main.e7dd772c.js.map": "/static/js/main.e7dd772c.js.map"
   },
   "entrypoints": [
     "static/css/main.c12590a8.css",
-    "static/js/main.fdc8aca1.js"
+    "static/js/main.e7dd772c.js"
   ]
 }
