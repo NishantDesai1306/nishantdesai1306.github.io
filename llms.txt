@@ -1,0 +1,112 @@
+# Nishant Desai
+
+> Senior Frontend Developer building fast React and Next.js apps. I'm a software engineer working in Canada. Since 2016 I have built web apps, scalable backends and React Native mobile apps, with a focus on performance and clean, intuitive UI.
+
+- Website: https://nishantdesai1306.github.io/
+- Email: nishantdesai1306@gmail.com
+- Résumé (PDF): https://nishantdesai1306.github.io/Nishant_Desai_Resume.pdf
+- GitHub: https://github.com/NishantDesai1306
+- LinkedIn: https://www.linkedin.com/in/nishant-desai-706018105/
+- Upwork: https://www.upwork.com/o/profiles/users/_~0138e4c1eefd3394a6/
+
+## About
+
+Hello! I'm Nishant Desai, a software engineer who loves creating new and exciting web-based apps. I develop apps with intuitive, pixel-perfect UIs and efficient backends.
+
+Shortly after graduating from Uka Tarsadia University, I joined JumpByte (now AppGambit) where I worked on a wide variety of projects on a daily basis.
+
+I specialize in the MEAN and MERN stacks for web apps, and I have built mobile apps with React Native and Flutter.
+
+I'm always interested in improving myself as a developer, and in meeting interesting people.
+
+Technologies: NextJS, React, NodeJS, Angular, Meteor, React Native, Flutter, MySQL, MongoDB.
+
+## Core Web Vitals results at J.D. Power
+
+- Mobile: "Good" URLs +197%, "Poor" URLs -96%
+- Desktop: "Good" URLs +168%, "Poor" URLs -21%
+
+## Experience
+
+### Senior Frontend Developer — J.D. Power (November 2022 - Present)
+
+Company: https://jdpower.com
+
+- Worked on a NextJS-based web application that connects users with car dealers or with other users who want to sell their cars.
+- Debugged and resolved a Google Ads issue that had been plaguing the app for months.
+- Streamlined the Google Ads implementation, eliminating cases where Google would serve empty ads.
+- Led the migration of Material UI from v4 to v5.
+- Helped migrate from the Pages Router to the App Router in NextJS.
+- Improved the overall performance and Core Web Vitals of the application by carefully optimizing the codebase over several months.
+  - Mobile: increased "Good" URLs by 197% and reduced "Poor" URLs by 96%.
+  - Desktop: increased "Good" URLs by 168% and reduced "Poor" URLs by 21%.
+
+### Fullstack Developer (on Contract) — FoodX (September 2020 - September 2022)
+
+Company: https://www.foodxtech.com/
+
+- Worked on a React-based web application that lets users manage orders and products online.
+- Designed UI/UX solutions based on what was most feasible for a given task.
+- Took the lead in designing and implementing multiple company-wide features.
+
+### Application Developer — modd.io (January 2018 - September 2020)
+
+Company: https://www.modd.io/
+
+- Worked on a React-based web application that lets users build their own multiplayer games.
+- Reduced S3 costs by 50% through a two-tier caching system.
+- Designed and built a horizontally scalable provisioning and communication system among servers.
+- Hosted and auto-scaled games on game servers to provide a smooth UX.
+- Deployed private servers that let users create game sessions only people with invite links can join.
+- Designed and developed hybrid apps for clients using React Native.
+
+### AppGambit (formerly JumpByte) — AppGambit (May 2016 - December 2017)
+
+Company: https://appgambit.com/
+
+- Developed and maintained a notification server built on top of Meteor.
+- Developed and managed multiple projects on both the frontend and the backend.
+- Manually tested web apps in various browsers to ensure cross-browser compatibility.
+- Worked on a native Android app used for internal communication.
+
+## Projects
+
+### Smart Copy
+
+Smart Copy explores one problem across native and cross-platform apps: keeping copied text and notes accessible wherever you work. I built Android, Angular, React, and React Native implementations, including a Node.js backend and a Firebase-backed PWA.
+
+Stack: Android, Angular, React, React Native, Firebase
+- Demo: https://www.youtube.com/watch?v=BB-6VMgOwFc
+- Code: https://github.com/NishantDesai1306/react-native-smart-copy
+- Android (Native): Smart Copy started from this project. On native Android I used the platform's floating window, so whenever a user double-clicks any input field in any app, a dismissible floating bubble pops up showing all copied items in a floating list.
+- Angular App: A mobile-responsive web companion to the mobile app, built with Angular v6. It connects to the same database, so everything you copy in the Android app is also accessible on the web. I also wrote the NodeJS backend server that serves the data to the app.
+- React App: Another mobile-responsive web companion to the original Smart Copy app, built with React. It is also a PWA, so you can install it on other smartphones or as a desktop app. It uses Firebase for file storage (profile pictures) and Firestore as the backend to store and retrieve items.
+- React Native: A simple React Native mobile app that supports user accounts and shows a list of items you can edit or delete. I started this project to learn more about hybrid mobile frameworks that let me build the same app for Android and iOS.
+
+### Chess
+
+A chess application built with React and Node.js. I integrated Stockfish 15 to show a position evaluation bar alongside the board, combining a focused interface with chess-engine feedback.
+
+Stack: React, NodeJS, Bootstrap, Stockfish 15
+- Code: https://github.com/NishantDesai1306/chess
+
+### Chatzz
+
+Chatzz is a Socket.io-based chat framework: a reusable Node.js foundation for adding real-time messaging to a chat application.
+
+Stack: Socket.io, NodeJS
+- Code: https://github.com/NishantDesai1306/chatzz
+
+### YouTube Subscriber Counter
+
+A cross-platform Flutter app for comparing the subscriber counts of two YouTube channels, exploring a shared mobile UI framework.
+
+Stack: Flutter
+- Demo: https://www.youtube.com/watch?v=RwFfTf3dJww
+- Code: https://github.com/NishantDesai1306/youtube_channel_sub_counter/tree/master
+
+## Contact
+
+I welcome opportunities to discuss potential collaborations, whether it's a job opportunity, project proposal, or technical discussion. I'm committed to providing thoughtful responses to all professional inquiries.
+
+Email nishantdesai1306@gmail.com.
