@@ -1,6 +1,6 @@
 [nishantdesai1306.github.io](https://nishantdesai1306.github.io/)
 
-Personal portfolio built using React and designed as [PWA](https://web.dev/progressive-web-apps/) so people can install it as an app on their smartphones and computers.
+Personal portfolio built with Astro as a static, JavaScript-light site, with progressive web app (PWA) support for installation and offline access on supported smartphones and computers.
 
 ## Source and development
 
